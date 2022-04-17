@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>数独</title>
+  <script src="puzzleScript.js"></script>
+</head>
+<body>
+
+  <h1 style="background-color:orange;padding:20px;text-align:center"> · Puzzle Game 数独 · </h1>
+    <h2>请仔细观察框架中的数字，找出规律，求出圆圈6与圆圈16的和。</h2>
+
+  <img src="数独.png" width="600" height="600"><br><br>
+
+  <button onclick="enterAnswer()">点此输入答案...</button>
+  <button onclick="getAnswer()">点此获得正确答案...</button>
+  <button onclick="getHint()">提示...</button>
+
+<style type="text/css">
+  #answers{padding:30px;background-color:#f7ab00}
+</style>
+  <h2 id="answers"> 你的答案：_____ </h2>
+
+</body>
+</html>
